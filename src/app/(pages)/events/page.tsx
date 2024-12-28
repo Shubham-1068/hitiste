@@ -75,39 +75,48 @@ export default function Home() {
 
 const sliderData = [
   {
-    id:"1",
+    id: "1",
+    img: "https://res.cloudinary.com/dds4wowea/image/upload/v1735390880/IMG_3504_vlqidy.heic",
+    location: "CS Department",
+    description:
+      "With the Levanter's whisper bidding farewell, we part, cradling memories like precious gems in our hearts.",
+    title: "The Last Algorithm (Farewell)",
+    date: "7th June",
+  },
+  {
+    id: "2",
     img: "https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     location: "SN Bose Auditorium",
     description:
-      ' The wait is finally over, and Team ISTE will ensure that it is worthwhile. Get ready for an amazing experience as the Indian Society for Technical Education - HIT Student Chapter is thrilled to extend an invitation to you for our First Annual Student Convention.',
+      'The wait is finally over, and Team ISTE will ensure that it is worthwhile. Get ready for an amazing experience as the Indian Society for Technical Education - HIT Student Chapter is thrilled to extend an invitation to you for our First Annual Student Convention.',
     title: "Annual Convention",
   },
   {
-    id:"2",
+    id: "3",
     img: "https://res.cloudinary.com/dqs4ncrqj/image/upload/v1716350127/p8y6nom6ez2zlfmdtlnh.jpg",
     location: "CS Department",
     description:
-      ' The "Communicraft" workshop was meticulously crafted to elevate participants communication skills through a multifaceted approach under the guidance of an experienced HR from the DataSpace Academy.',
+      'The "Communicraft" workshop was meticulously crafted to elevate participants communication skills through a multifaceted approach under the guidance of an experienced HR from the DataSpace Academy.',
     title: "Communicraft",
   },
   {
-    id:"3",
+    id: "4",
     img: "https://res.cloudinary.com/ds4lbluhe/image/upload/v1708694408/WhatsApp_Image_2024-02-23_at_18.47.38_034a1c5d_l5rf8s.jpg",
     location: "CS Department",
     description:
-      'The cost-free "CodeVault" event, hosted by the Indian Society of Technical Education (ISTE) chapter of Haldia Institute of Technology, acts as an expansion of the preceding "Access Denied" Ethical Hacking workshop, which commenced on February , and lasted three days. The exam ranked the top 75 contenders out of 260. ',
+      'The cost-free "CodeVault" event, hosted by the Indian Society of Technical Education (ISTE) chapter of Haldia Institute of Technology, acts as an expansion of the preceding "Access Denied" Ethical Hacking workshop, which commenced on February , and lasted three days. The exam ranked the top 75 contenders out of 260.',
     title: "CodeVault",
   },
   {
-    id:"4",
+    id: "5",
     img: "https://res.cloudinary.com/ds4lbluhe/image/upload/v1708693635/IMG_20231101_185655_pwdjnf.jpg",
     title: "Access Denied",
     description:
-      'The "Access Denied" Ethical Hacking workshop aimed to empower participants with skills in uncovering vulnerabilities, mastering penetration testing techniques, and understanding the ethical dimensions of hacking. Led by instructors from the Data Space Academy, this workshop provided expert guidance to ensure participants gained comprehensive knowledge and practical experience in cybersecurity practices',
+      'The "Access Denied" Ethical Hacking workshop aimed to empower participants with skills in uncovering vulnerabilities, mastering penetration testing techniques, and understanding the ethical dimensions of hacking. Led by instructors from the Data Space Academy, this workshop provided expert guidance to ensure participants gained comprehensive knowledge and practical experience in cybersecurity practices.',
     location: "CS Lab 2nd Floor",
   },
   {
-    id:"5",
+    id: "6",
     img: "https://res.cloudinary.com/dqs4ncrqj/image/upload/v1716352303/sl6feobfbckblfymk3o2.jpg",
     title: "Quest for Enigma",
     description:
@@ -115,13 +124,14 @@ const sliderData = [
     location: "Cryptography Lab",
   },
   {
-    id:"6",
+    id: "7",
     img: "https://res.cloudinary.com/ds4lbluhe/image/upload/v1708695128/Screenshot_2024-02-23_190129_noofbb.png",
     title: "Bit N Bytes",
     description:
-      '"BIT N BYTES" was the first event conducted by ISTE, designed for coding enthusiasts, consisting of two rounds: an initial online round on HackerRank, a platform for coding challenges and competitions',
+      '"BIT N BYTES" was the first event conducted by ISTE, designed for coding enthusiasts, consisting of two rounds: an initial online round on HackerRank, a platform for coding challenges and competitions.',
     location: "Cryptography Lab",
   },
 ];
+
 
 const initData = sliderData[0];
